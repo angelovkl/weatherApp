@@ -1,0 +1,69 @@
+.searchBarWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.searchBarInput {
+  padding: 12px 24px;
+  width: 300px;
+  transition: transform 250ms ease-in-out;
+  color: #575756;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+}
+
+.searchBarInput:hover,
+.searchBarInput:focus {
+  padding: 12px 0;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #575756;
+  border-radius: 0;
+  background-position: 100% center;
+}
+
+.inputWrap {
+    position: relative;
+}
+
+.inputIcon {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  cursor: pointer;
+  transition: all 250ms ;
+  transform-style: preserve-3d;
+  opacity: 1;
+}
+
+.inputIconHide {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    opacity: 0;
+    transition: all 250ms ;
+}
+
+.dropdown {
+    border: 1px solid transparent;
+    width: 300px;
+    position: absolute;
+    top: 100%;
+    background: white;
+    z-index: 1;
+}
+
+.dropdownElement {
+    border-bottom: 1px solid #575756;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.dropdownElement:hover {
+    scale: 1.1;
+    transition: all 250ms ;
+
+}

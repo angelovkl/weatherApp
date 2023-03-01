@@ -1,0 +1,57 @@
+.weather {
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+  color: black;
+  margin: 20px auto 0 auto;
+  padding: 0 20px 20px 20px;
+  margin-top: 180px
+}
+.hotBackground {
+    background: radial-gradient(circle at right, #f9c3b8 0, white 125%);;
+}
+.coldBackground {
+    background: radial-gradient(circle at right, #b8d9f9 0, white 125%);;
+}
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 0;
+}
+
+.details {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoLabel {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.infoValue {
+  text-align: right;
+  font-weight: 600;
+  font-size: 12px;
+}
+
